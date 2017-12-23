@@ -3,6 +3,8 @@ Vecmocon Technologies Pvt Ltd
 Initial Release: 23-December-2017
  
 This Repo contains two Keil projects for SD based IAP.
+
+
 ->The binary project is for creating a binary file for IAP
 * Vector table offset is changed in system_stm32f4xx.c according to the APPLICATION_ADDRESS
 * Also in the options for target change Read/Only Memory areas : IROM1 start to APPLICATION_ADDRESS.
